@@ -19,3 +19,25 @@ class MyViewController : UIViewController {
 }
 // Present the view controller in the Live View window
 PlaygroundPage.current.liveView = MyViewController()
+
+//Part 3
+var fruitNames: [String]
+//var numbers: [Int]
+
+//Part 4
+fruitNames = ["Kiwi", "Apples", "Watermelons"]
+
+//Part 5
+print(fruitNames)
+
+//Part 6
+print("I like to eat\(fruitNames)")
+
+//Part 7: Integrate through all items in the array using the "for-in" syntax
+for name in fruitNames{
+    print("I like to eat " + name)
+}
+
+//Part 8: Introduction to array indexes
+print(fruitNames[1])
+
