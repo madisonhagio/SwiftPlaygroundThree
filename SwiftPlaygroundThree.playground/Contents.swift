@@ -41,3 +41,14 @@ for name in fruitNames{
 //Part 8: Introduction to array indexes
 print(fruitNames[1])
 
+//Part 9: Problem Set One
+
+var cars = ["Ferrari", "Rolls Royce","Bugatti","Lambrogini", "Mercedes", "Lykan", "Koenigsegg", "Pagani Huayra"]
+
+for car in cars{
+    print(car + "Car is expensive")
+}
+
+print(cars[0])
+
+
